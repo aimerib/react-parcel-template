@@ -1,16 +1,24 @@
 {
-  "name": "git-template",
+  "name": "parcel-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./ -d public/",
+    "build": "parcel build index.html --public-url ./ -d public/"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Aimeri Baddouh",
+  "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
   }
 }

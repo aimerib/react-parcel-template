@@ -1,1 +1,1 @@
-# git-template
+# parcel-template
