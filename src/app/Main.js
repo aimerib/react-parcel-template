@@ -1,7 +1,6 @@
-
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import { MyComponent } from './components/MyComponent'
+import MyComponent from './components/MyComponent'
 
 export default class Main extends Component {
   render() {
